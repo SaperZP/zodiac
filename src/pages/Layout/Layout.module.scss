@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  height: 100vh;
+  background: linear-gradient(30deg, rgba(79, 135, 156, 1) 0%, rgba(187, 125, 11, 1) 35%, rgba(0, 0, 0, 1) 100%);
+
+  &__main {
+    flex: 1;
+  }
+
+  &__footer {
+    width: 100%;
+    background-color: rgba(79, 135, 156, 0.25);
+    text-align: center;
+    align-self: end;
+  }
+}
