@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  border-radius: 10px; /* Optional: adds rounded corners */
+  border-radius: 10px;
 
   &__title {
     position: absolute;
@@ -18,6 +18,9 @@
   }
 
   &__description {
+    scrollbar-width: none;
+    overflow: scroll;
+    height: 100%;
     position: absolute;
     bottom: -100%;
     width: 100%;
