@@ -1,6 +1,7 @@
 import styles from './Header.module.scss';
 import {Link} from "react-router-dom";
 import Menu from "./components/Menu/Menu.tsx";
+import logo from "../../assets/logo.png";
 
 const menuItems = {
   horoscopes: '',
@@ -12,13 +13,12 @@ const menuItems = {
 
 const Header = () => {
 
-
   return (
       <header className={styles.header}>
         <Link to="/">
           <img
               className={styles.logo}
-              src="/src/assets/logo.png"
+              src={logo}
               alt="logo"
           />
         </Link>
